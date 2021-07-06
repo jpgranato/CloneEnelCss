@@ -6,18 +6,18 @@ import ImgProfile from '../../assets/images/enel.png'
 export const Home1 = () => {
     return (
         <View style={Styles.Container}>
-            {/* <View0> */}
+           
             <View>
                 <Image source={ImgProfile} style={Styles.ImgProfile} />
             </View>
 
             <ScrollView>
-            {/*  View 1 */}
+            
                 <View style={Styles.View1}>
                     <Text style={Styles.Text1View1}>Acesso Rápido Código de Barras e Pagamento</Text>
                     <Text style={Styles.Text2View1}>Aproveite os serviços online da Enel</Text>
                 </View>
-            {/* View 2    */}
+           
                 <View style={Styles.View2}>
                     <Text>Número de Cliente (sem o dígito)</Text>
                     <TextInput style={Styles.Input1} />
@@ -27,7 +27,7 @@ export const Home1 = () => {
                     <TextInput />
                 </View>
 
-            {/* View3 */}
+            
                 <View style={{
                     marginTop: 80,
                     flex: 1,
